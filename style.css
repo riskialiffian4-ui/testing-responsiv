@@ -1,0 +1,36 @@
+body{
+    background-color: #777777;
+}
+.kiri h2{
+    color:blue;
+}
+
+
+.container{
+    display: flex;
+    margin: 50px;
+
+}
+.kiri{
+    background-color: #6a5acd;
+}
+.kanan{
+    background-color: #7f5cff;
+}
+@media(max-width: 600px){
+    body{
+        background-color: #ffffff;
+        font-style: italic;
+    }
+    .container{
+        background-color: #777777;
+    }
+    .kiri h2{
+        color: darkred;
+        background-color: blueviolet;
+    }
+    .kanan h2{
+        color: goldenrod;
+        background-color: blueviolet;
+    }
+}
